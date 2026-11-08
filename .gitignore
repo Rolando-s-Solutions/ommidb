@@ -1,0 +1,28 @@
+# Rust build artifacts
+/target
+Cargo.lock
+
+# Node / Frontend
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Tauri
+apps/studio/src-tauri/target/
+
+# Local databases and runtime state
+*.sqlite
+*.sqlite-journal
+*.sqlite3
+*.db
+*.log
+
+# IDE & OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
